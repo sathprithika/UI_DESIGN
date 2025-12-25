@@ -29,8 +29,8 @@ export default function LandingPage() {
 
       {/*SECTION-1*/}
       <section className="max-w-7xl mx-auto mt-4 bg-[#f4f4f4] rounded-[24px] flex flex-col md:flex-row items-center justify-between px-6 md:px-8 py-8 gap-10">
-        <div>
-          <h2 className="text-[52px] md:text-[80px] leading-[60px] md:leading-[85px] font-black">
+        <div className="text-center md:text-left">
+          <h2 className="text-[44px] sm:text-[52px] md:text-[80px] leading-[52px] sm:leading-[60px] md:leading-[85px] font-black">
             <span className="inline-block bg-white px-4 rotate-[-2deg]">
               LET'S
             </span>
@@ -43,10 +43,10 @@ export default function LandingPage() {
             <br />
             CLOTHES.
           </h2>
-          <p className="mt-6 text-xl">
+          <p className="mt-6 text-base sm:text-lg md:text-xl">
             Live for influential and innovative fashion!
           </p>
-          <button className="mt-10 bg-black text-white px-10 py-4 text-lg rounded-md">
+          <button className="mt-8 md:mt-10 bg-black text-white px-8 md:px-10 py-3 md:py-4 text-base md:text-lg rounded-md">
             Shop Now
           </button>
         </div>
@@ -54,41 +54,41 @@ export default function LandingPage() {
         <img
           src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
           alt="hero"
-          className="w-[260px] md:w-[320px] rounded-3xl"
+          className="w-[220px] sm:w-[260px] md:w-[320px] rounded-3xl"
         />
       </section>
 
       {/* SECTION-2 */}
-      <section className="bg-[#EBD96B] py-8 flex flex-wrap justify-center md:justify-evenly gap-8 items-center mt-20 px-6">
+      <section className="bg-[#EBD96B] py-6 md:py-8 flex flex-wrap justify-center md:justify-evenly gap-6 md:gap-8 items-center mt-20 px-4 md:px-6">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1024px-H%26M-Logo.svg.png"
           alt="H&M"
-          className="h-10"
+          className="h-8 sm:h-10"
         />
         <img
           src="https://www.vhv.rs/dpng/d/506-5060493_obey-black-and-white-logo-hd-png-download.png"
           alt="OBEY"
-          className="h-10 mix-blend-multiply"
+          className="h-8 sm:h-10 mix-blend-multiply"
         />
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/1280px-Shopify_logo_2018.svg.png"
           alt="Shopify"
-          className="h-10"
+          className="h-8 sm:h-10"
         />
         <img
           src="https://images.seeklogo.com/logo-png/29/1/lacoste-logo-png_seeklogo-298009.png"
           alt="LACOSTE"
-          className="h-20 mix-blend-multiply"
+          className="h-12 sm:h-16 md:h-20 mix-blend-multiply"
         />
         <img
           src="https://www.svgrepo.com/show/303398/levis-logo.svg"
           alt="Levi's"
-          className="h-20 mix-blend-multiply"
+          className="h-12 sm:h-16 md:h-20 mix-blend-multiply"
         />
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1280px-Amazon_logo.svg.png"
           alt="Amazon"
-          className="h-10"
+          className="h-8 sm:h-10"
         />
       </section>
 
