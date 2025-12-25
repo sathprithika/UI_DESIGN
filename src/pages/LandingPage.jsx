@@ -28,9 +28,9 @@ export default function LandingPage() {
       </header>
 
       {/*SECTION-1*/}
-      <section className="max-w-7xl mx-auto mt-4 bg-[#f4f4f4] rounded-[24px] flex items-center justify-between px-8 py-8">
+      <section className="max-w-7xl mx-auto mt-4 bg-[#f4f4f4] rounded-[24px] flex flex-col md:flex-row items-center justify-between px-6 md:px-8 py-8 gap-10">
         <div>
-          <h2 className="text-[80px] leading-[85px] font-black">
+          <h2 className="text-[52px] md:text-[80px] leading-[60px] md:leading-[85px] font-black">
             <span className="inline-block bg-white px-4 rotate-[-2deg]">
               LET'S
             </span>
@@ -54,12 +54,12 @@ export default function LandingPage() {
         <img
           src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
           alt="hero"
-          className="w-[320px] rounded-3xl"
+          className="w-[260px] md:w-[320px] rounded-3xl"
         />
       </section>
 
       {/* SECTION-2 */}
-      <section className="bg-[#EBD96B] py-8 flex justify-evenly items-center mt-20">
+      <section className="bg-[#EBD96B] py-8 flex flex-wrap justify-center md:justify-evenly gap-8 items-center mt-20 px-6">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1024px-H%26M-Logo.svg.png"
           alt="H&M"
@@ -93,10 +93,10 @@ export default function LandingPage() {
       </section>
 
       {/* SECTION-3 */}
-      <section className="px-16 mt-24">
+      <section className="px-6 md:px-16 mt-24">
         <h3 className="text-4xl font-black mb-14">NEW ARRIVALS</h3>
 
-        <div className="grid grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 justify-items-center">
           {/* Card 1 */}
           <div className="w-[300px]">
             <img
@@ -155,7 +155,7 @@ export default function LandingPage() {
       </section>
 
       {/* SECTION-4 */}
-      <section className="bg-[#EBD96B]  mt-24 flex items-center justify-between px-10 py-10 relative overflow-hidden min-h-[45vh]">
+      <section className="bg-[#EBD96B] mt-24 flex flex-col md:flex-row items-center justify-between px-6 md:px-10 py-10 gap-10">
         <span className="absolute top-12 left-20 text-white text-2xl">★</span>
         <span className="absolute top-24 right-32 text-white text-xl">★</span>
         <span className="absolute bottom-20 left-36 text-white text-xl">★</span>
@@ -165,7 +165,7 @@ export default function LandingPage() {
 
         <img
           src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80"
-          className="w-[420px] h-[520px] object-cover rounded-3xl"
+          className="w-[260px] md:w-[420px] h-[420px] md:h-[520px] object-cover rounded-3xl"
           alt="urban fashion model"
         />
 
@@ -193,10 +193,10 @@ export default function LandingPage() {
       </section>
 
       {/* SECTION-5 */}
-      <section className="px-16 mt-24">
+      <section className="px-6 md:px-16 mt-24">
         <h3 className="text-4xl font-black mb-14">YOUNG'S FAVOURITE</h3>
 
-        <div className="grid grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           {/* Card 1 */}
           <div>
             <img
@@ -238,7 +238,7 @@ export default function LandingPage() {
       </section>
 
       {/* SECTION- 6 */}
-      <section className="flex justify-between items-center px-16 mt-40">
+      <section className="flex flex-col md:flex-row justify-between items-center px-6 md:px-16 mt-40 gap-10">
         <div>
           <h3 className="text-[48px] font-black leading-tight">DOWNLOAD APP</h3>
           <h3 className="text-[48px] font-black leading-tight">
@@ -262,7 +262,7 @@ export default function LandingPage() {
         <img
           src="https://img.freepik.com/premium-photo/woman-shopping-yellow-dress-online-her-mobile-phone-yellow-background_746318-766.jpg"
           alt="Fashion mobile UI"
-          className="w-[600px] rounded-3xl shadow-xl"
+          className="w-full md:w-[600px] rounded-3xl shadow-xl"
         />
       </section>
 
@@ -277,7 +277,7 @@ export default function LandingPage() {
         </p>
         <div className="mt-10 flex justify-center">
           <input
-            className="px-8 py-4 rounded-l-md w-96"
+            className="px-6 py-4 rounded-l-md w-64 md:w-96"
             placeholder="Add your email here"
           />
           <button className="bg-black text-white px-8 rounded-r-md">
@@ -287,7 +287,7 @@ export default function LandingPage() {
       </section>
 
       {/*FOOTER*/}
-      <footer className="bg-black text-white px-16 py-24 grid grid-cols-4 gap-20">
+      <footer className="bg-black text-white px-6 md:px-16 py-24 grid grid-cols-1 md:grid-cols-4 gap-16">
         <div>
           <h4 className="font-black text-2xl">FASHION</h4>
           <p className="mt-6 text-gray-400">
